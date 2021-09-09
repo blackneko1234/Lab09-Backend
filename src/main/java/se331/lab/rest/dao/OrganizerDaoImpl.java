@@ -1,4 +1,4 @@
-package se331.lab.rest.dao.Organizer;
+package se331.lab.rest.dao;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

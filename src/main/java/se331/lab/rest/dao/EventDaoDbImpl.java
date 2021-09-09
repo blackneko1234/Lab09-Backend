@@ -1,4 +1,4 @@
-package se331.lab.rest.dao.Event;
+package se331.lab.rest.dao;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Profile;
