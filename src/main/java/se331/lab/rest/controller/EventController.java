@@ -9,12 +9,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.server.ResponseStatusException;
 import se331.lab.rest.entity.Event;
-import se331.lab.rest.service.EventService;
+import se331.lab.rest.service.Event.EventService;
 import se331.lab.rest.util.LabMapper;
-
-import javax.annotation.PostConstruct;
-import java.util.ArrayList;
-import java.util.List;
 
 @Controller
 public class EventController {

@@ -1,9 +1,9 @@
-package se331.lab.rest.service;
+package se331.lab.rest.service.Event;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
 import org.springframework.stereotype.Service;
-import se331.lab.rest.dao.EventDao;
+import se331.lab.rest.dao.Event.EventDao;
 import se331.lab.rest.entity.Event;
 
 @Service

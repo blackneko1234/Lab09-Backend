@@ -1,4 +1,4 @@
-package se331.lab.rest.dao;
+package se331.lab.rest.dao.Event;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Profile;
@@ -7,8 +7,6 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Repository;
 import se331.lab.rest.entity.Event;
 import se331.lab.rest.repository.EventRepository;
-
-import java.util.List;
 
 @Repository
 @Profile("db")
